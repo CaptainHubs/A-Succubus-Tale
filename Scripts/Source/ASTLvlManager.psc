@@ -9,6 +9,7 @@ int Property progressSpeed = 0 Auto
 
 ;/ Spells /;
 
+spell Property command Auto
 Spell Property reanimate Auto
 Spell Property SeductionArea Auto
 Spell Property ConsumeLifeForce Auto
@@ -187,13 +188,13 @@ Function AddSpellsFromLevel(int lvl)
     ElseIf lvl == 4
         playerRef.AddSpell(SucPower)
     ElseIf lvl == 5
-        playerRef.AddSpell(SeductionArea)
+        playerRef.AddSpell(command)
     ElseIf lvl == 6
-        playerRef.AddSpell(SuccubusWeakness)
+        playerRef.AddSpell(SeductionArea)
     ElseIf lvl == 7
-        playerRef.AddSpell(MassSeductionFFSelf)
+        playerRef.AddSpell(SuccubusWeakness)
     ElseIf lvl == 8
-        playerRef.AddSpell(reanimate)
+        playerRef.AddSpell(MassSeductionFFSelf)
     EndIf
 EndFunction
 

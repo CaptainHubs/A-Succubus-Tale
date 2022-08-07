@@ -49,6 +49,8 @@ ASTTattooScript TattooScript
 ASTLvlManager LevelManager
 OArousedScript oAroused
 
+VoiceCharmFactionScript es
+
 ; Events
 ;---------------------------------------------
 
